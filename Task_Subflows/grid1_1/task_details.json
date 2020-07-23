@@ -1,112 +1,23 @@
-  {
-   
-    "group_name" : "Plugins",
-    "sub_group" : "avxapi",
-    "uniqueId" : "task1000",
-    "directoryUniqueId" : "Parent010",
-    "tags" : [ 
-        "Others"
-    ],
-    "source" : "DEFAULT",
-    "userName" : "DEFAULT",
-    "objectType" : "TaskDetails",
-    "successiveTasks" : {},
-    "input" : [ 
-        {
-            "dataType" : "Json",
-            "key" : "password",
-            "value" : "<%password%>",
-            "variableDeclared" : false,
-            "mandatory" : false
-        }, 
-        {
-            "dataType" : "Json",
-            "key" : "ipAddress",
-            "value" : "<%ipAddress%>",
-            "variableDeclared" : false,
-            "mandatory" : false
-        }, 
-        {
-            "dataType" : "Json",
-            "key" : "vendor",
-            "value" : "<%vendor%>",
-            "variableDeclared" : false,
-            "mandatory" : false
-        }, 
-        {
-            "dataType" : "Json",
-            "key" : "deviceName",
-            "value" : "<%deviceName%>",
-            "variableDeclared" : false,
-            "mandatory" : false
-        }, 
-        {
-            "dataType" : "Json",
-            "key" : "username",
-            "value" : "<%username%>",
-            "variableDeclared" : false,
-            "mandatory" : false
+      {
+            "successiveTasks" : {},
+            "ignoredForStatusComputation" : true,
+            "metaData" : {
+                "taskHeader" : "Stop",
+                "hide" : false,
+                "lock" : false,
+                "successState" : 1,
+                "failoverState" : 2,
+                "hideFromStageView" : false,
+                "nature" : "normal"
+            },
+            "cleanUpFlowDetails" : {},
+            "subFlowDetails" : [],
+            "task_id" : "workflow_stop_1",
+            "task_name" : "Stop",
+            "task_type" : "stop",
+            "task_category" : "stop",
+            "status" : "active",
+            "component_type" : "others",
+            "setNullProperties" : true,
+            "viewable_type" : "custom"
         }
-    ],
-    "metaData" : {
-        "hide" : false,
-        "lock" : false,
-        "successState" : 1.0,
-        "failoverState" : 2.0,
-        "hideFromStageView" : false,
-        "nature" : "normal",
-        "lowCodeTask" : false
-    },
-    "actionType" : "avxapi",
-    "task_id" : "add_device",
-    "task_name" : "Add Device",
-    "task_type" : "avxapi",
-    "task_category" : "avxapi",
-    "component_type" : "others",
-    "setNullProperties" : true,
-    "viewable_type" : "custom",
-    "content_type" : "application/json",
-    "payload" : {
-        "primary" : [ 
-            {
-                "deviceType" : [ 
-                    "LTM"
-                ],
-                "access" : [ 
-                    {
-                        "accessType" : "iControl",
-                        "userName" : "<%username%>",
-                        "password" : "<%password%>"
-                    }
-                ],
-                "vendor" : "<%vendor%>",
-                "deviceCommunicationPort" : {
-                    "httpsPort" : 443.0,
-                    "sshPort" : 22.0
-                },
-                "dataCenter" : "DataCenter",
-                "subsystem" : "LoadBalancer",
-                "enableEvent" : false,
-                "syncFailoverGroupName" : "",
-                "manageCertificate" : "Managed",
-                "isAutoDetect" : true,
-                "devIndex" : 0.0,
-                "sameCredential" : false,
-                "ip" : "<%ipAddress%>",
-                "credentialType" : "Manual Entry",
-                "secondaryCommunication" : false,
-                "category" : "Load Balancers",
-                "primary" : false,
-                "autoSyncEnabled" : true,
-                "autoSyncNeeded" : false,
-                "msgType" : "DEVICE",
-                "name" : "<%deviceName%>"
-            }
-        ],
-        "secondary" : []
-    },
-    "api_type" : "SYNC",
-    "callback" : "visualworkflow-async-task-callback",
-    "http_method" : "POST",
-    "action_id" : "adc-add-device"
-}
