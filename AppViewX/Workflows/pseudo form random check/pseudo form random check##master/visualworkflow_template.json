@@ -478,5 +478,10 @@
   "workflowVersion" : "master",
   "activeForRequest" : true,
   "activeForInventory" : true,
-  "sourceControlSettings" : null
+  "sourceControlSettings" : {
+    "enabledForRemoteRepository" : false,
+    "committed" : false,
+    "pendingForPushAction" : true,
+    "pushActionCompleted" : false
+  }
 }
