@@ -1,0 +1,591 @@
+[ {
+  "workflowName" : "Certificate Revoke OOB",
+  "workflowType" : "Default",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : "scheduledBy",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DVWpo1UZ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Reason",
+    "key" : "reason",
+    "value" : "reason",
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "Ym3Jra2C",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "Ym3Jra2C",
+      "parentSubFlowID" : "DVWpo1UZ"
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "smwBixBv",
+      "parentSubFlowID" : "DVWpo1UZ"
+    } ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : "requestState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DVWpo1UZ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : "requestCreator",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DVWpo1UZ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Certificate name",
+    "key" : "cert_name",
+    "value" : "cert_name",
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "smwBixBv",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "Ym3Jra2C",
+      "parentSubFlowID" : "DVWpo1UZ"
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "smwBixBv",
+      "parentSubFlowID" : "DVWpo1UZ"
+    } ]
+  }, {
+    "name" : "Reason",
+    "key" : "reason_appviewx",
+    "value" : "reason_appviewx",
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "smwBixBv",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "smwBixBv",
+      "parentSubFlowID" : "DVWpo1UZ"
+    } ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : "taskState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DVWpo1UZ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "ticketNumber",
+    "value" : "ticketNumber",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DVWpo1UZ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Reason",
+    "key" : "reason_microsoft",
+    "value" : "reason_microsoft",
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "smwBixBv",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "Ym3Jra2C",
+      "parentSubFlowID" : "DVWpo1UZ"
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "smwBixBv",
+      "parentSubFlowID" : "DVWpo1UZ"
+    } ]
+  }, {
+    "name" : "Certificate name",
+    "key" : "cert_name_basedon_ca",
+    "value" : "cert_name_basedon_ca",
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "smwBixBv",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "Ym3Jra2C",
+      "parentSubFlowID" : "DVWpo1UZ"
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "smwBixBv",
+      "parentSubFlowID" : "DVWpo1UZ"
+    } ]
+  }, {
+    "name" : "Certificate authority",
+    "key" : "cert_authority",
+    "value" : "cert_authority",
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "Ym3Jra2C",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "smwBixBv",
+      "parentSubFlowID" : "DVWpo1UZ"
+    } ]
+  }, {
+    "name" : "Certificate authority",
+    "key" : "cert_authority",
+    "value" : "cert_authority",
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "smwBixBv",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "smwBixBv",
+      "parentSubFlowID" : "DVWpo1UZ"
+    } ]
+  }, {
+    "name" : "Reason",
+    "key" : "reason_microsoft",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "Ym3Jra2C",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "Ym3Jra2C",
+      "parentSubFlowID" : "DVWpo1UZ"
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "smwBixBv",
+      "parentSubFlowID" : "DVWpo1UZ"
+    } ]
+  }, {
+    "name" : "Certificate name",
+    "key" : "cert_name_basedon_ca",
+    "value" : "cert_name_basedon_ca",
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "Ym3Jra2C",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "Ym3Jra2C",
+      "parentSubFlowID" : "DVWpo1UZ"
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "smwBixBv",
+      "parentSubFlowID" : "DVWpo1UZ"
+    } ]
+  }, {
+    "name" : "Common name",
+    "key" : "common_name",
+    "value" : "common_name",
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "smwBixBv",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : "requestId",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DVWpo1UZ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Certificate group",
+    "key" : "cert_group",
+    "value" : "cert_group",
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "Ym3Jra2C",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Common name",
+    "key" : "common_name",
+    "value" : "common_name",
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "Ym3Jra2C",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "CA Account",
+    "key" : "ca_account",
+    "value" : "ca_account",
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "smwBixBv",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "smwBixBv",
+      "parentSubFlowID" : "DVWpo1UZ"
+    } ]
+  }, {
+    "name" : "Certificate name",
+    "key" : "cert_name",
+    "value" : "cert_name",
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "Ym3Jra2C",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "Ym3Jra2C",
+      "parentSubFlowID" : "DVWpo1UZ"
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "smwBixBv",
+      "parentSubFlowID" : "DVWpo1UZ"
+    } ]
+  }, {
+    "name" : "Select revokation mode",
+    "key" : "revokation_mode",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "smwBixBv",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "Ym3Jra2C",
+      "parentSubFlowID" : "DVWpo1UZ"
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "smwBixBv",
+      "parentSubFlowID" : "DVWpo1UZ"
+    } ]
+  }, {
+    "name" : "Certificate group",
+    "key" : "cert_group",
+    "value" : "cert_group",
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "smwBixBv",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Reason",
+    "key" : "reason",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "smwBixBv",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "Ym3Jra2C",
+      "parentSubFlowID" : "DVWpo1UZ"
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "smwBixBv",
+      "parentSubFlowID" : "DVWpo1UZ"
+    } ]
+  }, {
+    "name" : "Select revokation mode",
+    "key" : "revokation_mode",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : "DVWpo1UZ",
+    "subFlowID" : "Ym3Jra2C",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "Ym3Jra2C",
+      "parentSubFlowID" : "DVWpo1UZ"
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "smwBixBv",
+      "parentSubFlowID" : "DVWpo1UZ"
+    } ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : "workflowName",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DVWpo1UZ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : "loggedInUsername",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DVWpo1UZ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  } ]
+}, {
+  "workflowName" : "Certificate Revoke OOB",
+  "workflowType" : "Rollback",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : "requestCreator",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JD4ZHRpr",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : "loggedInUsername",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JD4ZHRpr",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : "requestId",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JD4ZHRpr",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "ticketNumber",
+    "value" : "ticketNumber",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JD4ZHRpr",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : "workflowName",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JD4ZHRpr",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : "taskState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JD4ZHRpr",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : "scheduledBy",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JD4ZHRpr",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : "requestState",
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "JD4ZHRpr",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  } ]
+} ]
