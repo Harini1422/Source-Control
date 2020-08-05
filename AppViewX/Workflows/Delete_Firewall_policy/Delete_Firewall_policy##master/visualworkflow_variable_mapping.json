@@ -1,0 +1,611 @@
+[ {
+  "workflowName" : "Delete_Firewall_policy",
+  "workflowType" : "Default",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "ticket_status",
+    "key" : "ticket_status",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : "Validate_2",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "parallel_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "decision_4",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "Ticket Number",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "ITSM ticket Required?",
+    "key" : "snowTicket",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "createform_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "decision_6",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "decision_3",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "implement_config",
+    "key" : "implement_config",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : "avxapi_8",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "review_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "sysId",
+    "key" : "sysId",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : "Get_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "Close_2",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "Pushconfig_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "Close_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "device",
+    "key" : "device",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : "avxapi_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "avxapi_3",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "avxapi_4",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "avxapi_8",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "packageName",
+    "key" : "packageName",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : "avxapi_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "avxapi_8",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "avx_id",
+    "key" : "avx_id",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : "avxapi_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "avxapi_8",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "tickerNumber",
+    "key" : "ticket_number",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : "script_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "Validate_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "Get_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "Validate_2",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "avx_policy_type",
+    "key" : "avx_policy_type",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : "avxapi_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "avxapi_8",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Master Implementation",
+    "key" : "master_implementation",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : "review_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "avxapi_3",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "avxapi_4",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "ticket_status",
+    "key" : "ticket_status",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : "Validate_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "parallel_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "decision_4",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "provisioning_data",
+    "key" : "provisioning_data",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : "avxapi_8",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "avxapi_3",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "avxapi_4",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "adomName",
+    "key" : "adomName",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : "avxapi_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "avxapi_8",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "vdomName",
+    "key" : "vdomName",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : "avxapi_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "avxapi_8",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Search Key",
+    "key" : "search_key",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "v4XCl0iq",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "createform_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "avxapi_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "v4XCl0iq",
+      "parentSubFlowID" : null
+    } ]
+  } ]
+}, {
+  "workflowName" : "Delete_Firewall_policy",
+  "workflowType" : "Rollback",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "loMBtVT7",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "Ticket Number",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "loMBtVT7",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "loMBtVT7",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "loMBtVT7",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "loMBtVT7",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "loMBtVT7",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "loMBtVT7",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "loMBtVT7",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  } ]
+} ]
