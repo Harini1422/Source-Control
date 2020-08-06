@@ -1,0 +1,701 @@
+[ {
+  "workflowName" : "ASM Policy Migration AVX12-3",
+  "workflowType" : "Default",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Master_Postvalidation",
+    "key" : "Master_Postvalidation",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "review_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "avxapi_3",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Time Zone",
+    "key" : "time_zone",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Master_Implementation",
+    "key" : "Master_Implementation",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "review_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "avxapi_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "PreValidation Check",
+    "key" : "bt_preval_check",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Implementation",
+    "key" : "Implementation",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "default_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "review_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Master_Prevalidation",
+    "key" : "Master_Prevalidation",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "review_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "avxapi_2",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Source Device",
+    "key" : "dr_source_waf_device",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "default_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "default_4",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Postvalidation",
+    "key" : "Postvalidation",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "default_3",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "review_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "review_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "jnWy93p6",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Get Target WAF Device",
+    "key" : "bt_target_waf_device",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Filename",
+    "key" : "source_policy_name",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "default_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "default_4",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Get Source WAF Device",
+    "key" : "bt_source_device",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "RollBack",
+    "key" : "RollBack",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "default_4",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "review_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "jnWy93p6",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Create Service Now Ticket",
+    "key" : "create_snow_tkt",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "Validate_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Get Target Device Virtual Servers",
+    "key" : "bt_vs",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Policy list",
+    "key" : "asm_policy_list",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "default_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "default_4",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Target Policy Name",
+    "key" : "new_policy_name",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "default_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "default_4",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Validation Result",
+    "key" : "ml_preval_check",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Target Device",
+    "key" : "dr_target_waf_device",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "default_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "default_4",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Prevalidation",
+    "key" : "Prevalidation",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "default_2",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "review_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "review_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "jnWy93p6",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Get ASM Policy",
+    "key" : "asm_policy",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "Ticket Number",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "End Date",
+    "key" : "end_date",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "ITSM Integration",
+    "key" : "integrate_service_now",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "decision_7",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Virtual Serves",
+    "key" : "vs_name",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "default_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "default_4",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "BaZdRE0N",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Start Date",
+    "key" : "start_date",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "BaZdRE0N",
+    "taskId" : "createform_3",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  } ]
+}, {
+  "workflowName" : "ASM Policy Migration AVX12-3",
+  "workflowType" : "Rollback",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "RollBack_Prevalidation",
+    "key" : "RollBack_Prevalidation",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "jnWy93p6",
+    "taskId" : "review_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "avxapi_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "jnWy93p6",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "jnWy93p6",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "RollBack_RollBack",
+    "key" : "RollBack_RollBack",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "jnWy93p6",
+    "taskId" : "review_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "avxapi_2",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "jnWy93p6",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "Ticket Number",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "jnWy93p6",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "jnWy93p6",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "jnWy93p6",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "jnWy93p6",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "RollBack_Postvalidation",
+    "key" : "RollBack_Postvalidation",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "jnWy93p6",
+    "taskId" : "review_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "avxapi_3",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "jnWy93p6",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "jnWy93p6",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "jnWy93p6",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "jnWy93p6",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  } ]
+} ]
