@@ -1,0 +1,921 @@
+[ {
+  "workflowName" : "Symantec_Migration_AVX12-3",
+  "workflowType" : "Default",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "CA Account",
+    "key" : "caSettingName",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "add_digicert_connectors_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Hash Algorithm",
+    "key" : "hash_algorithm",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Challenge password",
+    "key" : "encryptedChallengePassword",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "add_digicert_connectors_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Certificate",
+    "key" : "certi_details",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "add_digicert_connectors_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "cert_request_id",
+    "key" : "cert_request_id",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "get_request_id_5",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "get_workorder_status_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Certificate Group",
+    "key" : "certGroup",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "add_digicert_connectors_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "State",
+    "key" : "state",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "avx_sessionId",
+    "key" : "avx_sessionId",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "rest_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "get_workorder_status_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "get_request_id_5",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "add_digicert_connectors_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "submit_csr_to_ca_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Certificte Validity (in Years)",
+    "key" : "certificate_validity",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "certificate_enroll_list",
+    "key" : "certificate_enroll_list",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "get_workorder_status_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "submit_csr_to_ca_3",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "K3uAwpvV",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Common name",
+    "key" : "commonName",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "CA to Migrate",
+    "key" : "certificateAuthority",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "default_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "add_digicert_connectors_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Email ID",
+    "key" : "mailAddress",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Organization",
+    "key" : "organization",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Certificate UUID",
+    "key" : "uuid",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Organization unit",
+    "key" : "organizationUnit",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "AppViewX Username",
+    "key" : "avx_username",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "rest_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "K3uAwpvV",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "rest_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "csr_submit_uuid",
+    "key" : "csr_submit_uuid",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "submit_csr_to_ca_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "get_request_id_5",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Password",
+    "key" : "avx_password",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "rest_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "K3uAwpvV",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "rest_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "ca_connector_uuid",
+    "key" : "ca_connector_uuid",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "add_digicert_connectors_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "submit_csr_to_ca_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "avx_session_url",
+    "key" : "avx_session_url",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "certificate_details_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "rest_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "K3uAwpvV",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "rest_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Confirm password",
+    "key" : "confirmPassword",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Key Type",
+    "key" : "key_type",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Locality",
+    "key" : "locality",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Certificate Type",
+    "key" : "certificateType",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "default_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "add_digicert_connectors_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "avx_gateway_key",
+    "key" : "avx_gateway_key",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "certificate_details_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "submit_csr_to_ca_3",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "K3uAwpvV",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "get_workorder_status_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "K3uAwpvV",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "get_workorder_status_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "get_request_id_5",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "add_digicert_connectors_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "submit_csr_to_ca_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "get_request_id_2",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "K3uAwpvV",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Country",
+    "key" : "country",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "Ticket Number",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Bit Length",
+    "key" : "bit_length",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "avx_gateway_url",
+    "key" : "avx_gateway_url",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "certificate_details_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "submit_csr_to_ca_3",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "K3uAwpvV",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "get_workorder_status_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "K3uAwpvV",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "get_workorder_status_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "get_request_id_5",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "add_digicert_connectors_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "submit_csr_to_ca_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "get_request_id_2",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "K3uAwpvV",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Server Type",
+    "key" : "serverType",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "FTtm2pYj",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "add_digicert_connectors_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "FTtm2pYj",
+      "parentSubFlowID" : null
+    } ]
+  } ]
+}, {
+  "workflowName" : "Symantec_Migration_AVX12-3",
+  "workflowType" : "Rollback",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "K3uAwpvV",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "avx_rollback_sessionId",
+    "key" : "avx_rollback_sessionId",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "K3uAwpvV",
+    "taskId" : "rest_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "submit_csr_to_ca_3",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "K3uAwpvV",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "get_workorder_status_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "K3uAwpvV",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "get_request_id_2",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "K3uAwpvV",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "Ticket Number",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "K3uAwpvV",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "revoke_submit_uuid",
+    "key" : "revoke_submit_uuid",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "K3uAwpvV",
+    "taskId" : "submit_csr_to_ca_3",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "get_request_id_2",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "K3uAwpvV",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "K3uAwpvV",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "K3uAwpvV",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "rollback_request_id",
+    "key" : "rollback_request_id",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "K3uAwpvV",
+    "taskId" : "get_request_id_2",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "get_workorder_status_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "K3uAwpvV",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "K3uAwpvV",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "K3uAwpvV",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "K3uAwpvV",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "K3uAwpvV",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  } ]
+} ]
