@@ -1,0 +1,14 @@
+{
+  "attachByFiles" : null,
+  "versioningAttachmentId" : null,
+  "_id" : "5f91ebb27693c923ef081b02",
+  "workflowName" : "Ticket chain unique renamed",
+  "workflowVersionName" : "master",
+  "source" : null,
+  "description" : null,
+  "createdBy" : "admin",
+  "lastModifiedTime" : 1603398578772,
+  "activeForRequest" : true,
+  "activeForInventory" : true,
+  "protectedVersion" : true
+}
