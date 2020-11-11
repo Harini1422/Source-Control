@@ -92,7 +92,7 @@
     "folderType" : null
   } ],
   "flows" : null,
-  "workflowVersion" : "master"
+  "workflowVersion" : "master2020-11-10T09:36:16.308"
 }, {
   "workflowName" : "Ticket chain unique renamed",
   "connectorType" : "Bezier",
@@ -210,7 +210,7 @@
     "taskType" : "form",
     "taskId" : "createform_1",
     "representationDetails" : {
-      "co-ordinates" : "25185,25423"
+      "co-ordinates" : "25184,25424"
     },
     "taskPoolId" : "createform",
     "referenceTaskId" : "createform_1#uwvRFHZ7",
@@ -338,7 +338,7 @@
     "taskType" : "change management",
     "taskId" : "Get_1",
     "representationDetails" : {
-      "co-ordinates" : "25221,25631"
+      "co-ordinates" : "25272,25582"
     },
     "taskPoolId" : "Get",
     "referenceTaskId" : "",
@@ -634,44 +634,7 @@
       "ruleName" : "success"
     },
     "linkId" : "Link_13"
-  }, {
-    "uniqueId" : "gitl0002",
-    "directoryUniqueId" : null,
-    "source" : null,
-    "objectType" : null,
-    "subFlowID" : null,
-    "metaData" : {
-      "taskHeader" : null,
-      "hide" : false,
-      "lock" : false,
-      "nature" : null,
-      "hideFromStageView" : false,
-      "mode" : "Citizen",
-      "lowCodeTask" : false
-    },
-    "generalComponent" : true,
-    "type" : "General",
-    "subGroup" : "rest",
-    "taskCategory" : "rest",
-    "groupName" : "General",
-    "viewable_type" : "custom",
-    "taskName" : "GitLab - Create Merge Request",
-    "taskType" : "rest",
-    "taskId" : "gitlab_-_create_merge_request_1",
-    "representationDetails" : {
-      "co-ordinates" : "25098,25698"
-    },
-    "taskPoolId" : "gitlab_-_create_merge_request",
-    "referenceTaskId" : "",
-    "favouriteType" : "",
-    "folderName" : "",
-    "subCategory" : null,
-    "parentSubFlowID" : null,
-    "workflowName" : null,
-    "workflowType" : null,
-    "folderId" : "",
-    "folderType" : ""
   } ],
   "flows" : null,
-  "workflowVersion" : "master"
+  "workflowVersion" : "master2020-11-10T09:36:16.308"
 } ]
