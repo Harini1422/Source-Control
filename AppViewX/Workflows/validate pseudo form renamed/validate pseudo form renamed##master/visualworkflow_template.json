@@ -484,8 +484,8 @@
   "defaultGlobalData" : null,
   "lastUpdatedTime" : 1603398578903,
   "sourceControlSettings" : {
-    "committed" : false,
-    "pendingForPushAction" : false,
+    "committed" : true,
+    "pendingForPushAction" : true,
     "pushActionCompleted" : false,
     "enabledForRemoteRepository" : true,
     "connectedRepo" : [ {
