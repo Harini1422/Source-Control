@@ -448,43 +448,6 @@
       "ruleName" : "success"
     },
     "linkId" : "Link_25"
-  }, {
-    "uniqueId" : "jkDppSeM",
-    "directoryUniqueId" : null,
-    "source" : null,
-    "objectType" : null,
-    "subFlowID" : null,
-    "metaData" : {
-      "taskHeader" : null,
-      "hide" : false,
-      "lock" : false,
-      "nature" : null,
-      "hideFromStageView" : false,
-      "mode" : "Developer",
-      "lowCodeTask" : false
-    },
-    "generalComponent" : true,
-    "type" : "General",
-    "subGroup" : "form",
-    "taskCategory" : "form",
-    "groupName" : "User interface",
-    "viewable_type" : "custom",
-    "taskName" : "Form_2",
-    "taskType" : "form",
-    "taskId" : "createform_2",
-    "representationDetails" : {
-      "co-ordinates" : "25398,25468"
-    },
-    "taskPoolId" : "createform",
-    "referenceTaskId" : "",
-    "favouriteType" : "",
-    "folderName" : "",
-    "subCategory" : null,
-    "parentSubFlowID" : null,
-    "workflowName" : null,
-    "workflowType" : null,
-    "folderId" : "",
-    "folderType" : ""
   } ],
   "flows" : null,
   "workflowVersion" : "master"

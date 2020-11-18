@@ -22,7 +22,7 @@
     "disableRequestorSubmission" : false,
     "tags" : [ ],
     "hideWorkflow" : false,
-    "enablePseudoPreview" : true,
+    "enablePseudoPreview" : false,
     "enableRequest" : true,
     "excludedTasks" : null,
     "confirmationAlert" : true
@@ -484,8 +484,8 @@
   "defaultGlobalData" : null,
   "lastUpdatedTime" : 1603398578903,
   "sourceControlSettings" : {
-    "committed" : true,
-    "pendingForPushAction" : true,
+    "committed" : false,
+    "pendingForPushAction" : false,
     "pushActionCompleted" : false,
     "enabledForRemoteRepository" : true,
     "connectedRepo" : [ {
