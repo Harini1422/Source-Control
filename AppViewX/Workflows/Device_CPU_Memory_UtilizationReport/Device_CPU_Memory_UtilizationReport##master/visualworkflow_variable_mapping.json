@@ -3,26 +3,6 @@
   "workflowType" : "Default",
   "workflowVersion" : "master",
   "varKeyList" : [ {
-    "name" : "Workflow Name",
-    "key" : "workflowName",
-    "value" : null,
-    "variableType" : "default",
-    "parentSubFlowID" : null,
-    "subFlowID" : "YObl0e4R",
-    "taskId" : null,
-    "dataType" : null,
-    "destinationTasks" : [ ]
-  }, {
-    "name" : "Request State",
-    "key" : "requestState",
-    "value" : null,
-    "variableType" : "default",
-    "parentSubFlowID" : null,
-    "subFlowID" : "YObl0e4R",
-    "taskId" : null,
-    "dataType" : null,
-    "destinationTasks" : [ ]
-  }, {
     "name" : "Task State",
     "key" : "taskState",
     "value" : null,
@@ -63,16 +43,6 @@
     "dataType" : null,
     "destinationTasks" : [ ]
   }, {
-    "name" : "Request Creator",
-    "key" : "requestCreator",
-    "value" : null,
-    "variableType" : "default",
-    "parentSubFlowID" : null,
-    "subFlowID" : "YObl0e4R",
-    "taskId" : null,
-    "dataType" : null,
-    "destinationTasks" : [ ]
-  }, {
     "name" : "Loggedin User Name",
     "key" : "loggedInUsername",
     "value" : null,
@@ -103,6 +73,76 @@
     "dataType" : null,
     "destinationTasks" : [ ]
   }, {
+    "name" : "schedule end",
+    "key" : "schedule_end",
+    "value" : "schedule_end",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "YObl0e4R",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "schedule_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "YObl0e4R",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "YObl0e4R",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "YObl0e4R",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "schedule start",
+    "key" : "schedule_start",
+    "value" : "schedule_start",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "YObl0e4R",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "schedule_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "YObl0e4R",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "YObl0e4R",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
     "name" : "Request Id",
     "key" : "requestId",
     "value" : null,
@@ -112,6 +152,26 @@
     "taskId" : null,
     "dataType" : null,
     "destinationTasks" : [ ]
+  }, {
+    "name" : "Device Name",
+    "key" : "device_name",
+    "value" : "device_name",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "YObl0e4R",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "cpu_tmm_check_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "YObl0e4R",
+      "parentSubFlowID" : null
+    } ]
   } ]
 }, {
   "workflowName" : "Device_CPU_Memory_UtilizationReport",
